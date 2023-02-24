@@ -63,7 +63,7 @@
                                 <h5 class="mb-0">Consultation</h5>
                             </div>
                             <div class="card-body">
-                                <a href="">+ Request consultation</a>
+                                <router-link :to="{ name: 'consultation' }">+ Request consultation</router-link>
                             </div>
                         </div>
                     </div>
@@ -132,7 +132,7 @@
                                     <h5 class="mb-0">First Vaccination</h5>
                                 </div>
                                 <div class="card-body">
-                                    <a href="">+ Register vaccination</a>
+                                    <router-link :to="{ name: 'vaccination' }">+ Register vaccination</router-link>
                                 </div>
                             </div>
                         </div>
@@ -185,7 +185,7 @@
                                     <h5 class="mb-0">Second Vaccination</h5>
                                 </div>
                                 <div class="card-body">
-                                    <a href="">+ Register vaccination</a>
+                                    <router-link :to="{ name: 'vaccination' }">+ Register vaccination</router-link>
                                 </div>
                             </div>
                         </div>
